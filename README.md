@@ -11,6 +11,10 @@ das microempresas (demo da feira de São Paulo, quadro `ignes-empresa`, cartões
   representam o projeto original.
 - **Mudanças da Ignes Computo:** ficam nos commits da branch `ignescomputo`, a partir da tag `v4.18.0`.
 - **Segredos:** nenhum segredo ou dado de cliente entra neste repositório, que é público.
+- **Imagem:** `ghcr.io/infra-igniscomputo/chatwoot-ignescomputo`, arm64, edição comunitária. O workflow
+  `.github/workflows/imagem.yml` publica a cada push na `ignescomputo` com as tags `:ignescomputo` (a mais nova) e
+  `:v4.18.0-ignes-<sha>` (fixa, para a máquina da demo). Os workflows do Chatwoot original foram removidos, porque
+  publicam no Docker Hub da Chatwoot Inc.
 
 ---
 
