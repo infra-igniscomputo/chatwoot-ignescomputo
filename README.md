@@ -1,3 +1,19 @@
+# Chatwoot · Ignes Computo
+
+Fork do [Chatwoot](https://github.com/chatwoot/chatwoot) mantido pela **Ignes Computo** para o ambiente de atendimento
+das microempresas (demo da feira de São Paulo, quadro `ignes-empresa`, cartões #372 a #379).
+
+- **Base:** Chatwoot `v4.18.0`, edição comunitária. A branch principal é `ignescomputo`, e a `develop` acompanha o original.
+- **Licença:** o código vem do Chatwoot sob a licença MIT (Expat), mantida em [`LICENSE`](LICENSE) com o aviso de
+  copyright da Chatwoot Inc. A pasta `enterprise/`, de licença comercial, **foi removida**, como na edição comunitária
+  oficial. Nada aqui usa código enterprise.
+- **Marca:** "Chatwoot" é marca da Chatwoot Inc. As mudanças deste fork levam a identidade da Ignes Computo e não
+  representam o projeto original.
+- **Mudanças da Ignes Computo:** ficam nos commits da branch `ignescomputo`, a partir da tag `v4.18.0`.
+- **Segredos:** nenhum segredo ou dado de cliente entra neste repositório, que é público.
+
+---
+
 <img src="./.github/screenshots/header.png#gh-light-mode-only" width="100%" alt="Header light mode"/>
 <img src="./.github/screenshots/header-dark.png#gh-dark-mode-only" width="100%" alt="Header dark mode"/>
 
